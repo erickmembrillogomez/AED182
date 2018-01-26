@@ -11,6 +11,7 @@ namespace WebApp.Controllers
         public ActionResult Index()
         {
             ViewData["r1"] = "Andres";
+            ViewData["r2"] = "herson";
             return View();
         }
 
