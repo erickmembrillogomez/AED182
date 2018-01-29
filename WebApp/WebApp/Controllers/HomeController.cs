@@ -10,8 +10,8 @@ namespace WebApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["r1"] = "tlacuilo";
-            ViewData["r2"] = "saul";
+            ViewData["r1"] = "erick";
+
             return View();
         }
 
